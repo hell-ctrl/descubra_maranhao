@@ -1,0 +1,41 @@
+.discovery {
+  margin-top: 6rem;
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 3rem
+}
+
+.discovery h1 {
+  font-size: 4rem;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .discovery {
+    top: 6rem
+  }
+
+  .discovery h1 {
+    font-size: 2.5rem
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+  }
+}
