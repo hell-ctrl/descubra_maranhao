@@ -61,8 +61,8 @@ module.exports = {
         "name": "Museu Histórico de Alcântara - MHA",
         "city": "Alcântara",
         "description": "O Museu Histórico de Alcântara está instalado em um sobrado colonial, exemplar típico dos casarões maranhenses do século XIX.\nOrganizado pela Secretaria de Estado da Cultura do Maranhão em 1977, com o apoio da EMBRATUR, da MARATUR e da Prefeitura deste município, o Museu Histórico de Alcântara testemunha um período de opulência e riqueza baseado nas monoculturas do arroz e algodão alimentados pelo sistema escravagista. O prédio do Museu Histórico encanta aos visitantes por sua fachada revestida de azulejos coloridos e portais emoldurados de pedras de lioz. A planta em forma de L dá lugar a longos corredores avarandados abrindo para um pátio interno,onde se encontra um belo poço com bordas trabalhadas em pedra e alvenaria. Com inúmeros detalhes arquitetônicos interessantes, o prédio do Museu Histórico de Alcântara destaca-se por seus longos beirais, janelas em guilhotina,forro em espinha de peixe no segundo pavimento,balcões com base de pedra e gradil em ferro trabalhado,além de outros detalhes que garantem condições de ventilação e conferem beleza ao conjunto arquitetônico.",
-        
-        
+        "latitude": -2.4081615,
+        "longitude":  -44.4176746,
         "created_at": new Date(),
         "updated_at": new Date()
       }
