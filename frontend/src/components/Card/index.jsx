@@ -12,7 +12,7 @@ function Card({ name, city, description, photo_url }) {
       <h3 className="card-name">{name}</h3>
       <span className="card-city">{city}</span>
       <p className="card-description">{description}</p>
-      <Link to={`/${friendlyName}`} className="card-button-link">Saiba mais</Link>
+      <Link to={`/attractions/${friendlyName}`} className="card-button-link">Saiba mais</Link>
     </div>
   );
 };

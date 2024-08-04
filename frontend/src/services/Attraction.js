@@ -1,7 +1,7 @@
 import axios from "axios";
 
 class Attraction {
-  static baseUrl = "http://localhost:3000/attraction";
+  static baseUrl = "https://descubra-maranhao.onrender.com/attraction";
 
   static async getRecomendeds() {
     const { data } = await axios.get(`${this.baseUrl}/recomendeds`);
