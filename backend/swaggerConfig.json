@@ -1,13 +1,24 @@
 {
-  "swagger": "2.0",
+  "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
     "title": "API Documentation",
-    "description": "API documentation for the application"
+    "description": "API documentation for the application.",
+    "contact": {
+      "email": "netoff197@gmail.com"
+    }
   },
-  "host": "localhost:3000",
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local server."
+    },
+    {
+      "url": "https://descubra-maranhao.onrender.com",
+      "description": "Main server"
+    }
+  ],
   "basePath": "/",
-  "schemes": ["http"],
   "consumes": ["application/json"],
   "produces": ["application/json"],
   "securityDefinitions": {
