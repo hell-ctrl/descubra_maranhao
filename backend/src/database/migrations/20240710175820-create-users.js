@@ -16,7 +16,7 @@ module.exports = {
       profile_photo: {
         type: Sequelize.STRING,
         allowNull: false,
-        defaultValue: "https://foto.jpg"
+        defaultValue: "https://i3.wp.com/cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png?resize=728%2C728&ssl=1"
       },
       email: {
         type: Sequelize.STRING,
