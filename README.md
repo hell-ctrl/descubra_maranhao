@@ -20,7 +20,7 @@ AUTH_SECRET=sua chave secreta para jwt
 
 USER_NAME=nome do usuario adm a ser criado
 USER_EMAIL=email do usuario adm a ser criado
-USER_ADM=1
+USER_ADM=1 (0 para "false" 1 para "true")
 USER_PASSWORD=senha do usuario adm a ser criado(senha criptografada usando a biblioteca bcryptjs)
 ```
 
